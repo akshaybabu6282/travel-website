@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoTrip</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- logo -->
+    <link rel="icon" href="images/logo.png" type="image/png" >
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="full-items ">
+      <div class="link text-center pt-3  head-offer">
+        <p>Welcome to MundoTrip.com. Continue to the India site at <a href="">MundoTrip.co.in.</a></p>
+      </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid " >
+              <img src="./images/logo.png" width="30px" alt="logo" class="mt-3 mb-3 me-3 logo-img">
+              <h1 id="logo-head">Mundo Trip</h1>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                    <a href=""><button id=" get-app" type="button" class="btn rounded-3 btn-dark me-3"><i class="fa-solid fa-arrow-down"></i>  Get the App</button></a> 
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-globe"></i> English</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">List your property</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">Support</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">Trips</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<hr>
+       
+     <div class="nav-full">
+      <div class="back-black">
+      <div class="nav-bar ">
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary rounded-top-4">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active ms-5  mt-3  mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-plane-departure"></i> Flights</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-hotel"></i> Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-house d-block"></i> Homestay & Villas</a>
+                </li><li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-umbrella-beach d-block"></i> Holiday Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-train"></i> Trains</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-bus"></i> Buses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-car"></i> Cabs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-regular fa-money-bill-1 d-block"></i> Forex Card
+                  & Currency</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-3 me-5 mt-3 mb-2 d-block text-center" aria-current="page" href="#"><i class="fa-solid fa-hospital-user d-block"></i> Travel Insurance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>    
+
+
+      <div class="nav-bar-inner bg-body-tertiary">
+        <form action="">
+          <div class="top-input">
+            <input type="radio" name="same" class="round"><label for="">Round Trip</label>
+            <input type="radio" name="same"><label for="">One Way</label>
+            <input type="radio" name="same" ><label for="">Multi City</label>
+            <select name="" id="" class="select-class">
+              <option value="">Economy</option>
+              <option value="">Premium Economy</option>
+              <option value="">Business Class</option>
+              <option value="">First Class</option>
+            </select>
+            <div class="line"></div>
+          </div>
+          <div class="flight">
+            <i class="fa-solid fa-location-dot me-2 ms-2"></i><input class="finght-inner ps-2 " type="text" placeholder="Leaving from">
+            <button id="search-cls" class="btn "><i class="fa-solid fa-arrows-left-right me-1"></i></button>
+            <i class="fa-solid fa-location-dot me-2 "></i><input class="finght-inner ps-2" type="text" placeholder="Going to">
+            <i class="fa-solid fa-calendar-days me-2 ms-3"></i><input class="finght-inner ps-2" type="text" placeholder="Dates">
+            <i class="fa-solid fa-person me-2 ms-3"></i><input class="finght-inner ps-2" type="number" min="1" placeholder="Travelers" >
+            <button type="button" class="btn btn-dark text-center" style="width: 100px;height: 40px;">Search</button>
+          </div>
+          <div>
+            <input class="me-2 mt-4 check fs-5" type="checkbox"><label for="">Add a place to stay</label>
+            <input class="ms-5 me-2 mt-4 fs-5" type="checkbox"><label for="">Add a car</label>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+    </div>
+    <hr>
+    
+
+
+    <div class="offer d-flex">
+      <div class="spinner-border mt-2 ms-5 fs-2 " role="status" style="color: white;width: 50px;height: 50px;">
+        <span class="visually-hidden" >Loading...</span>
+      </div>
+      <p >Save 10% or more on over 100,000 hotels with Member Prices.Also,members save up to 30% when you add a hotel to a flight</p>
+      <button type="button" class="btn btn-secondary mt-3 ms-5" style="width: 90px; height: 40px;">Sign in</button>
+    </div>
+
+
+
+    <div class="outer-spring">
+      <div class="spring">
+      <h1>Big spring savings: <br> Save 25% or more</h1>
+      <p>Enjoy warmer wether and travel deals. Book by <br> March 25 for 25% off select hotels.</p>
+      <button class="btn btn-dark ms-5 spring-btn">Book spring deals</button>
+      </div>
+    </div>
+
+
+
+    <div class="uncover">
+      <h1 class="text-center mb-3 head-stay">Uncover your hidden gem getaway</h1>
+    </div>
+    <div class="row mb-5">
+      <div class="col-md-1"></div>
+
+
+      <div class="col-md-10 mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row ">
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/resort1 img.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Resort</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/all inclusive img.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>All inclusive</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/hot tub.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Hot tub</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/cabin.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Cabin</b></p>
+                </div>
+                <div class="col-md-2 ms-4">
+                  <img class="rounded-3 images uncover-img" src="./images/pet friendly 1.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Pet friendly</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row ">
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/ocean view.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Ocean view</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/spa.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Spa</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/family friendly.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Family friendly</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/house boat.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Houseboat</b></p>
+                </div>
+                <div class="col-md-2 ms-4">
+                  <img class="rounded-3 images uncover-img" src="./images/villa.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Villa</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row ">
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/farmstay.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center "><b>Farm stays</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/chalet.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Chalet</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/pool.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Pool</b></p>
+                </div>
+                <div class="col-md-2 ms-4 me-1">
+                  <img class="rounded-3 images uncover-img" src="./images/tree house.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Tree house</b></p>
+                </div>
+                <div class="col-md-2 ms-4">
+                  <img class="rounded-3 images uncover-img" src="./images/inns.webp" width="230px" height="300px" alt="">
+                  <p class="fs-5 text-center"><b>Inns</b></p>
+                </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+      <div class="col-md-1"></div>
+    </div>
+    </div>
+
+
+    <div class="about mt-5 mb-5">
+      <div class="about-text">
+        <h2 class="text-center"><b>Escape to New Horizons</b> </h2>
+        <p class="text-center ms-5 me-5">Embark on a journey of discovery as you escape to new horizons with <B>MUNDO TRIP</B>. Our passion for exploration and commitment to exceptional experiences await to take you on unforgettable adventures. With us, you'll have the opportunity to discover new horizons, whether it's exploring hidden gems off the beaten path, immersing yourself in diverse cultures, or indulging in breathtaking natural landscapes. Let <b>MUNDO TRIP</b> be your guide as you find your next adventure and uncover the wonders that await beyond the horizon. Your journey begins here.</p>
+      </div>
+      <div class="about-img">
+        <img src="./images/about bg.webp"  height="500px" alt="">
+      </div>
+    </div>
+  
+  
+    <div class="mt-5 mb-5">
+      <h2 class="text-center mt-5 mb-4 destination-head"><b> Destination TrendSpot</b></h2>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/pari 1.webp" width="100%" height="200px" alt="">
+                    <h5>Paris</h5>
+                    <p>France</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/usa.webp" width="100%" height="200px" alt="">
+                    <h5>New York City</h5>
+                    <p>USA</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/india.webp" width="100%" height="200px" alt="">
+                    <h5>Agra</h5>
+                    <p>India</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/japan.webp" width="100%" height="200px alt="">
+                    <h5>Tokyo</h5>
+                    <p> Japan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/London.webp" width="100%" height="200px" alt="">
+                    <h5>London</h5>
+                    <p> United Kingdom</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Rome.webp" width="100%" height="200px" alt="">
+                    <h5>Rome</h5>
+                    <p> Italy</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Barcelona.webp" width="100%" height="200px" alt="">
+                    <h5>Barcelona</h5>
+                    <p> Spain</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Sydney, Australia.webp" width="100%" height="200px" alt="">
+                    <h5>Sydney</h5>
+                    <p>  Australia</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3" src="./images/Dubai, United Arab Emirates.webp" width="100%" height="200px" alt="">
+                    <h5>Dubai</h5>
+                    <p>  United Arab Emirates</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Bali, Indonesia.webp" width="100%" height="200px" alt="">
+                    <h5>Bali</h5>
+                    <p>  Indonesia</p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Santorini, Greece.webp" width="100%" height="200px" alt="">
+                    <h5>Santorini</h5>
+                    <p>  Greece </p>
+                  </div>
+                  <div class="col-md-3 text-center place-div">
+                    <img class="rounded-3 destination-img" src="./images/Bangkok, Thailand.webp" width="100%" height="200px" alt="">
+                    <h5>Bangkok</h5>
+                    <p> Thailand</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+
+
+    <div>
+      <h2 class="text-center "><b>Explore these unique stays</b></h2>
+    <p class="mb-4 text-center">Showing deals for: <b>Apr 12 - Apr 14</b></p>
+    <div class="row">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 d-flex">
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3" src="./images/mountain home.webp" width="100%" height="200px" alt="">
+                  <p><b>10.0/10</b> Exceptionl (8 reviews)</p>
+                  <h5>Y.O. Ranch Headquarters</h5>
+                  <h6>Mountain Home</h6>
+                  <h3>$403</h3>
+                  <p>per nigh <br>$853 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark"><i class="fa-solid fa-tag"></i> Member Price available</button>
+                  <button class="btn rounded-5 border-primary mt-3">Sign in for Member Price</button>
+          </div>
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3" src="./images/johnson city.webp" width="100%" height="200px" alt="">
+                  <p><b>10.0/10</b> Exceptionl (18 reviews)</p>
+                  <h5>Walden Retreats</h5>
+                  <h6>Johnson City</h6>
+                  <h3 class="d-inline me-2">$588</h3><sup><del> $613</del> <i class="fa-solid fa-circle-exclamation"></i></sup>
+                  <p>per nigh <br>$1,327 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark"><i class="fa-solid fa-tag"></i> Member Price available</button>
+                  <button class="btn rounded-5 border-primary mt-3">Sign in for Member Price</button>
+          </div>
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3" src="./images/torry.webp" width="100%" height="200px" alt="">
+                  <p><b>9.8/10</b> Exceptionl (110 reviews)</p>
+                  <h5>Cougar Ridge Resort, LLC</h5>
+                  <h6>Torrey</h6>
+                  <h3 class="d-inline me-2">$439</h3><sup><del> $451</del> <i class="fa-solid fa-circle-exclamation"></i></sup>
+                  <p>per nigh <br>$975 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark">3% off</button>
+          </div>
+          <div class="col-md-3 amount">
+            <img class="rounded-3" src="./images/gatlinburg.webp" width="100%" height="200px" alt="">
+                  <p><b>10.0/10</b> Exceptionl (6 reviews)</p>
+                  <h5>Three Times The Fun</h5>
+                  <p> Gatlinburg</p>
+                  <h3 class="d-inline me-2">$165</h3>
+                  <p>per nigh <br>$693 total <br>include taxes &fees</p>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+
+      <div class="row mt-5 mb-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 d-flex">
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3 " src="./images/millersburg.webp" width="100%" height="200px" alt="">
+                  <p><b>10.0/10</b> Exceptionl (6 reviews)</p>
+                  <h5>Pine Cove Treehouses & Cabins</h5>
+                  <h6> Milerburg</h6>
+                  <h3 class="d-inline me-2">$229</h3>
+                  <p>per nigh <br>$568 total <br>include taxes &fees</p>
+          </div>
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3 " src="./images/Colorado.webp" width="100%" height="200px" alt="">
+                  <p><b>9.8/10</b> Exceptionl (68 reviews)</p>
+                  <h5>Desert Sage Retreat</h5>
+                  <h6>Colorado City</h6>
+                  <h3>$164</h3>
+                  <p>per nigh <br>$392 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark"><i class="fa-solid fa-tag"></i> Member Price available</button>
+                  <button class="btn rounded-5 border-primary mt-3">Sign in for Member Price</button>
+          </div>
+          <div class="col-md-3 me-2 amount">
+            <img class="rounded-3" src="./images/Bolton.webp" width="100%" height="200px" alt="">
+                  <p><b>9.6/10</b> Exceptionl (14 reviews)</p>
+                  <h5>HIGHLANDS CASTLE </h5>
+                  <h6>Bolton Landing</h6>
+                  <h3 class="d-inline me-2">$477</h3><sup><del> $519</del> <i class="fa-solid fa-circle-exclamation"></i></sup>
+                  <p>per nigh <br>$1,165 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark">8% off</button>
+          </div>
+          <div class="col-md-3 amount">
+            <img class="rounded-3" src="./images/Sasabe.webp" width="100%" height="200px" alt="">
+                  <p><b>9.6/10</b> Exceptionl (8 reviews)</p>
+                  <h5>Rancho De La Osa Gust Ranch</h5>
+                  <h6>Sasabe</h6>
+                  <h3>$199</h3>
+                  <p>per nigh <br>$506 total <br>include taxes &fees</p>
+                  <button class="btn btn-dark"><i class="fa-solid fa-tag"></i> Member Price available</button>
+                  <button class="btn rounded-5 border-primary mt-3">Sign in for Member Price</button>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    </div>
+  
+  
+
+    <div class="row mt-5 mb-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 d-flex border-dark rounded-5 border qr-code" style="height: 300px;">
+        <div class="col-md-4 pt-2 qr-img">
+          <img class="rounded-3 app-img" src="./images/app bg.webp" height="280px" width="100%" alt="">
+        </div>
+        <div class="col-md-6 ps-5 mt-3">
+          <h2>Go Future with the <b>Mundo Trip </b>App</h2>
+          <p >Exclusive app-only deal! Save up to 30% on your next stay when you book through our app. Don't miss out on this limited-time offer!</p>
+          <p class="mt-5"><b>Scan the QR code to download our app and unlock exclusive travel deals, seamless booking experiences, and personalized recommendations on the go!</b> </p>
+        </div>
+        <div class="col-md-2 mt-3">
+          <img src="./images/qr code.png" width="90%" alt="">
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  
+    
+    <div class="row mt-5 mb-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-10 product-outer">
+        <h6 class="mt-5">PRODUCT OFFERING</h6>
+        <ul class="product">
+          <a href=""><li>Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Gift Cards, Gift, Trip Money, Trip Ideas, Travel Blog, PNR Status, MundoTrip Advertising Solutions, One Way Cab
+          </li></a>
+        </ul>
+        <h6>MUNDO TRIP</h6>
+        <ul class="product">
+          <a href=""><li>About Us, Investor Relations, Careers, MMT Foundation, Legal Notices, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us
+          </li></a>
+        </ul>
+        <h6>ABOUT THE SITE</h6>
+        <ul class="product">
+          <a href=""><li>Customer Support, Payment Security, Privacy Policy, Cookie Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home
+          </li></a>
+        </ul>
+        <h6>QUICK LINKS</h6>
+        <ul class="product">
+          <a href=""><li>Flights Discount Coupons, Domestic Airlines, Indigo Airlines, Air Asia, SpiceJet, GoAir, Air India, Air India Express, Vistara, New Delhi Mumbai Flights, Pune Delhi Flights, Delhi Chennai Flights, Delhi Guwahati Flights, Mumbai Varanasi Flights, Guwahati Delhi Flights, Goa Delhi Flights, Delhi Goa Flights, Delhi Chennai Flights
+          </li></a>
+        </ul>
+        <h6>IMPORTANT LINKS</h6>
+        <ul class="product">
+          <a href=""><li>Cheap Flights, Flight Status, Chennai Mumbai flights, Mumbai Hyderabad flights, Hyderabad Bangalore flights, Pune Bangalore flights, Mumbai Jaipur flights, Mumbai Chandigarh flights, Bangalore Kolkata flights, Hyderabad Visakhapatnam flights, Chandigarh Bangalore flights, Jaipur Mumbai flights, Mumbai Shirdi Flights, Delhi to Tirupati Flight, Indore to Mumbai Flight, Kolkata to Rupsi Flight, Rupsi to Guwahati Flight, Pasighat to Guwahati Flight, Delhi to Khajuraho flight, Cochin to Agatti Island Flight
+          </li></a>
+        </ul>
+        <h6>CORPORATE TRAVEL</h6>
+          <ul class="product">
+            <a href=""><li>Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights
+            </li></a>
+          </ul>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+
+
+   <div class="row question-outer">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <div class="row">
+        <div class="col-md-6 question-inner">
+          <h6>Q - How do I make a flight booking on Mundo Trip?</h6>
+          <p class="question">A: You can book a flight on Mundo Trip in five easy steps: Head over to the Mundo Trip flight booking page, Enter your departure and arrival destinations, Select your air travel dates, Choose from our wide range of cheap flights based on your airfare preferences, Click on ‘Book Now’ and your air flight booking is done. Alternatively, you can also use the Mondo Trip app for your flight ticket booking. Download the Mundo Trip app, Put in the details i.e. date of journey, departure and arrival destinations, travel class of your choice, Select on your best comfortable option and click on 'Book Now'.</p>
+        </div>
+        <div class="col-md-6 question-inner">
+          <h6>Q - Can I avail domestic flight offers on Mundo Trip?</h6>
+          <p class="question">A: Of course, you can. While making domestic flight bookings, you can avail any special offer that is active at that time. In accordance with the offer selected, a listing of eligible cheapest flights would show up on your screen. You can then apply the price filter and click on the downwards arrow, following which budget-friendly flights would start showing up in ascending order from the top (lowest price on top).</p>
+        </div>
+      </div>
+      <hr class="mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-6 question-inner">
+          <h6>Q - How can I avail budget air tickets on Mundo Trip?</h6>
+          <p class="question">A: It’s super-easy to avail budget airfare while booking your cheap flight tickets on Mondo Trip. Just select the ‘Price’ filter once the available flight options are displayed and adjust according to your convenience. On the Mondo Trip app, you can select the downward arrow, which will show the lowest airfare at the top and continue downward in ascending order.</p>
+        </div>
+        <div class="col-md-6 question-inner">
+          <h6>Q - Why could I not avail the flight booking offers at the time of checkout?</h6>
+          <p class="question">A: Mundo Trip makes use of a world-class real-time reservation database to list airfare and availability. As dynamic changes in airfare take place, or the available flight tickets sell out, the database reflects the changes in real-time. Hence, we suggest, you double-check online flight booking prices when purchasing flight tickets, as the airfare might have been dynamically updated since you first selected the air travel dates or planned your itinerary.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+   </div>
+
+
+   <div class="row bg-dark footer">
+    <div class="col-md-1"></div>
+    <div class="col-md-6 mt-5 footer-icon">
+      <i class="fa-brands fa-twitter fs-2 mt-5 me-5"></i>
+      <i class="fa-brands fa-instagram fs-2 mt-5 me-5"></i>
+      <i class="fa-brands fa-facebook-f fs-2 mt-5 "></i>
+    </div>
+    <div class="col-md-4 pt-4 pb-5 footer-text">
+      <h5 class="footer-inner">©️ 2024 MUNDO TRIP PVT.LTD.</h5>
+      <h6 class="footer-inner-head">Country INDIA USA UAE</h6>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="row">
+      <p class="name text-center pb-5 pt-3">Design by 😎 <b>Akshay Babu</b></p>
+    </div>
+   </div>
+
+  </div>
+</body>
+</html>

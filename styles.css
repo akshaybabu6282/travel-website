@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1:hover{
+    animation: heading 1s infinite;
+}
+@keyframes heading{
+    50%{
+        transform: scale(1.1);
+    }
+}
+h2:hover{
+    animation: heading 1s infinite;
+}
+@keyframes heading{
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+
+.logo-img{
+    margin-left: 200px;
+}
+#logo-head{
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 300px;
+    margin-top: 15px;
+}
+
+.link{
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.link a{
+    color: white;
+}
+
+
+
+
+.nav-bar{
+    padding-top: 80px;
+    margin: 0px 250px;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.5),0 -5px 5px -5px rgba(0,0,0,0.5),-5px 0 5px -5px rgba(0,0,0,0.5),5px 0 5px -5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.nav-full{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://imgs.search.brave.com/2TEyoE5h466at0pBuJTxqdoyM3i1Y9gA74axNu_FxBk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOC8x/MC8wOC8xNy8zOC9u/YXR1cmUtMzczMzEx/NV82NDAuanBn');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back-black{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+
+.nav-bar-inner{
+    height: 200px;
+    margin: 0px 125px 20px 125px;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.5),0 -5px 5px -5px rgba(0,0,0,0.5),-5px 0 5px -5px rgba(0,0,0,0.5),5px 0 5px -5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.top-input{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.top-input input{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.top-input select{
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 30px;
+}
+.line{
+    width: 100px;
+    background-color: black;
+    height: 4px;
+    margin-left: 18px;
+    margin-top: 5px;
+} 
+
+
+.flight{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.finght-inner{
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.check{
+margin-left: 38px;
+}
+
+
+.offer{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 95%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 50px;
+}
+.offer p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+.outer-spring{
+    width: 1200px;
+    background-image: url('./images/spring\ image.webp');
+    height: 500px;
+    margin: 100px 0px 40px 155px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.spring{
+    width: 1200px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.571);
+border-radius: 30px;
+}
+.spring h1{
+    color: white;
+    padding: 100px 0px 0px 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.spring p{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.spring-btn:hover{
+    animation: btn 1s infinite;
+}
+@keyframes btn{
+    50%{
+        transform: scale(1.5);
+    }
+}
+
+
+.head-stay{
+    font-family: "Jomhuria", serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+
+.images:hover{
+    animation: 1s img infinite;
+}
+@keyframes img{
+    50%{
+        transform: scale(.8);
+        border-radius: 50px;
+    }
+}
+
+
+.about{
+    height: 500px;
+    display: flex;
+    background-color: lightblue;
+    margin-top: 50px;
+}
+.about-text h2{
+    margin-top: 150px;
+}
+.first{
+    position: absolute;
+    left: -10px;
+}
+
+
+.place-div img:hover{
+    animation: place 1s infinite;
+}
+@keyframes place{
+    50%{
+        transform: scale(.8);
+    }
+}
+
+
+
+.amount img:hover{
+    animation: amount 1s infinite;
+}
+@keyframes amount{
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+
+.app-img:hover{
+    animation: app-img 1s infinite;
+}
+@keyframes app-img{
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+
+.product a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    font-size:small
+}
+
+
+
+.question-outer{
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.question{
+    font-size: small;
+}
+
+
+.footer{
+    color: grey;
+}
+.footer-inner{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.footer-inner-head{
+    margin-left: 250px;
+}
+.name{
+    color: grey;
+}
+
+@media (max-width: 800px){
+    .head-offer{
+      font-size: 10px;
+    }
+    .logo-img{
+      margin-left: 5px;
+    }
+    .nav-full{
+        width: 495px;
+        height: 500px;
+    }
+    .back-black{
+        width: 495px;
+        height: 500px;
+    }
+    .nav-bar-inner{
+        width: 95%;
+        height: 350px;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+   .line{
+    width: 95%;
+    margin-left: 5px;
+   }
+   
+   .flight input{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   
+   .offer{
+    font-size: small;
+    margin-left: 2px;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+   }
+   .offer p{
+    width: 200px;
+    margin-top: 0px;
+   } 
+   .spring{
+        margin-left: 0px;
+        width: 220px;
+        height: 400px;
+    }
+    .outer-spring{
+        width: 220px;
+        height: 400px;
+    }
+    .outer-spring h1{
+        font-size: 20px;
+        margin-left: 0px; 
+        margin-bottom: 10px; 
+       padding-right: 10px;     
+    }
+    .outer-spring p{
+        font-size: 15px;
+        margin-left: 20px; 
+       padding-right: 10px; 
+    }
+    .uncover h1{
+       font-size: 40px;
+       margin-left: 10px;
+    }
+    .uncover-img{
+        display:block;
+        margin-left: 120px;
+    }
+    .about{
+        display: grid;
+        grid-template-rows: 2;
+        width: 100%;
+    }
+    .about-text h2{
+        font-size: 20px;
+        margin-top: 15px;  
+        margin-left: 0px; 
+    }
+    .about-text{
+        width: 500px;
+        font-size: 13px;
+    }
+    .about-img{
+        width: 495px;
+        height: 400px;
+    }
+    .about-img img{
+        width: 483px;
+        height: 250px;
+    }
+    .destination-head{
+        font-size: 20px;
+    }
+    .destination-img{
+        padding: 0px 20px;
+    }
+    .place-div h5{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .place-div p{
+        font-size: small;
+    }
+    .amount{
+        margin-left: 10px;
+    }
+    .amount img{
+        height: 100px;
+        width: 100px;
+    }
+    .amount p{
+        font-size: 10px;
+    }
+    .amount h5{
+        font-size: 15px;
+    }
+    .amount h6{
+        font-size: 13px;
+    }
+    .amount h3{
+        font-size: 18px;
+    }
+    .amount button{
+        font-size: 12px;
+    }
+    .app-img{ 
+        width: 200px;
+        height: 250px;
+        padding-left: 5px;
+    }
+    .qr-code h2{
+        font-size: 15px;
+    }
+    .qr-code p{
+        font-size: 10px;
+    }
+    .product-outer h6{
+        margin-left: 10px;
+    }
+    .question-inner h6{
+        padding-left: 10px;
+    }
+    .question-inner p{
+        padding-left: 10px;
+    }
+    .footer-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .footer-text h5{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .footer-text h6{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .name{
+        font-size: 10px;
+    }
+
+    
+
+
+
+
+
+    
+    
+
+}
